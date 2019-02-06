@@ -26,8 +26,6 @@ p { /* Text shall be in Georgia, too: */
 .Impact {
 	font-family: Impact, Verdana, sans-serif;
 	font-style: bold;
-	display:inline-block;
-	display:inline;
 }
 
 .comic {
