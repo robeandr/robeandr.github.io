@@ -23,6 +23,18 @@ p { /* Text shall be in Georgia, too: */
 	font-family: monospace;
 }
 
+.Impact {
+	font-family: Impact, Verdana, sans-serif;
+	font-style: bold;
+	display:inline-block;
+	display:inline;
+}
+
+.comic {
+	font-family: Chalkboard, "Comic Sans", serif;
+	display:inline;
+}
+
 a { /* Links will be blue... */
 color: cornflowerblue;
 }
