@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Andrew Robertson",
-    "currentPage": "home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -693,7 +693,7 @@
     "home.html": {
       "settings": {
         "main": true,
-        "title": "Andrew Robertson – Home",
+        "title": "Home",
         "meta_descr": "Andrew Robertson's Co-Op page. ",
         "header_custom": "",
         "footer_custom": "",
