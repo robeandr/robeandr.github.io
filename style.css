@@ -1,0 +1,23 @@
+@font-face {
+   font-family: 'IBMPlexSans-Bold';
+   src: url('IBMPlexSans-Bold/font.ttf');
+}
+@font-face {
+   font-family: 'Verdana';
+   src: url('Verdana/font.ttf');
+}
+
+@font-face {
+   font-family: 'IBM Plex Sans';
+   src: url('IBMPlexSans/IBMPlexSans-Regular.ttf');
+}
+@font-face {
+   font-family: 'IBM Plex Sans';
+   font-weight: lighter;
+   src: url('IBMPlexSans/IBMPlexSans-Light.ttf');
+}
+@font-face {
+   font-family: 'IBM Plex Sans';
+   font-weight: bold;
+   src: url('IBMPlexSans/IBMPlexSans-Bold.ttf');
+}
