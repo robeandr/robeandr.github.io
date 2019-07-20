@@ -1,5 +1,5 @@
 # Engineering Vision
-> Andrew Robertson — 214919377
+> Andrew Robertson
 
 > **2019-07-12**
 
