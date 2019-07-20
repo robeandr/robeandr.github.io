@@ -3,7 +3,7 @@
 <table>
 <tr>
 	<td>905-706-6981 <b>|</b></td>
-	<td>71 Prentice Dr, Whitby, ON   L1N 9J8 <b>|</b></td>
+	<td>Ontario <b>|</b></td>
 	<td><a href='mailto:robeandr@my.yorku.ca' target='_blank' class='url'>robeandr@my.yorku.ca</a></td>
 </tr>
 </table>
