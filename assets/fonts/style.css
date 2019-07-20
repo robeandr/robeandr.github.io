@@ -21,7 +21,3 @@
    font-weight: bold;
    src: url('IBMPlexSans/IBMPlexSans-Bold.ttf');
 }
-@font-face {
-   font-family: 'IBM Plex Sans Light';
-   src: url('IBMPlexSans/IBMPlexSans-Light.ttf');
-}
