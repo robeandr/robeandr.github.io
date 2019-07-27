@@ -21,7 +21,9 @@
 >
 > ― Kraft
 
-### Learning Philosophy
+### Learning Style
+I am an Audio-Visual learner. I like to hear things as they are explained to me, as well as see what's going on. If what I'm learning can be related to a diagram, that helps. Visualization is important. 
+> For example, I plotted my [degree](../Downloads/A Handy Sheet of Geomatics.pdf). 
 
 ### Values
 > From the "Values Assessment":
