@@ -1,182 +1,607 @@
 <!DOCTYPE html>
-<html  >
+<html>
+
 <head>
-  <!-- Site made with Mobirise Website Builder v4.10.1, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.10.1, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/round...-york-80x80.png" type="image/x-icon">
-  <meta name="description" content="Downloads of things people might like. ">
-  
-  <title>Andrew Robertson – Documents</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link href="assets/fonts/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>download</title>
+
+
+<style type="text/css">
+@charset "utf-8";
+
+/*
+	Based on: Daring Fireball CSS, Copyright (c) 2018 John Gruber. Layout No. 2 / v1.9
+*/
+
+@import "/css/fireball_fontsize.php";
+@import "/css/fireball_unicode.css";
+
+html {
+	/* cf. http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
+	height: 100%;
+	margin-bottom: 1px;
+	}
+
+blockquote {
+	font-size: 1em;
+	margin: 2em 2em 2em 1em;
+	padding: 0 .75em 0 1.25em;
+	border-left: 1px solid #0082C9;
+	border-right: 0px solid #777;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    /*background-color: #484B56;*/
+	}
+
+code{
+margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  /*border: 1px solid #eaeaea;*/
+  background-color: #484B56;
+  border-radius: 3px; }
+/* 
+blockquote strong {
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: normal;
+	text-transform: none;
+	}
+ */
+
+body {
+	-webkit-text-size-adjust: none;
+	margin-top: 0;
+	padding: 0;
+	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+	line-height: 1.8em;
+	text-align: left;
+	min-width: 760px;
+	/*#4a525a; /* dark blue slate thing */
+	}
+
+a {
+	text-decoration: none;
+	}
+
+a:link {
+	text-decoration: none;
+	color: #0082C9;
+	border-color: #0082C9;
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
+	padding: 3px 0px 2px 0px;
+	background-color: inherit;
+	}
+
+a:visited {
+	color: #A21A68;
+	border-color: #A21A68;
+	border-width: 0 0 1px 0;
+	border-style: none none dotted none;
+	padding: 3px 0px 2px 0px;
+	background-color: inherit;
+	}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #0082C9;
+	border-color: white;
+	}
+
+a em {
+	padding-bottom: 2px; /* Hack for WebKit; otherwise the underscore padding is 0 */
+	}
+
+
+sup {
+	line-height: 0px;
+	}
+sup a:link {
+	padding: 3px;
+	}
+sup a:visited {
+	padding: 3px;
+	}
+
+
+p {
+ 	margin: 0 0 1.6em 0;
+	padding: 0;
+	}
+
+.footer{
+	width: 100%;
+	}
+tr {
+	text-transform: uppercase;
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Georgia, serif;
+	font-weight: lighter;
+	font-size: 0.75em;
+	}
+.ri{
+	text-align: right;}
+
+table td + td { border-left:1px solid #0082C9; }
+td {
+	padding: 0.5em;
+	}
+table th + th { border-left:1px solid #0082C9; }
+th {
+	border-bottom:1px solid #0082C9
+	}
+
+h1 {
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Georgia, serif;
+	font-size: 2em; /* was 1.46em for Georgia */
+	line-height: 1.5em;
+	text-align: left;
+	font-weight: bold;
+	margin: 0em 0px 1.25em 0px;
+	background-color: #175690;
+	color: white;
+	}
+
+h2 {
+	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 1.05em; /* 1 */
+	text-align: left;
+	font-weight: normal;
+	line-height: 1.8em;
+	letter-spacing: .2em;
+	margin: 4em 0 1em 0;
+	text-transform: uppercase;
+	}
+
+h1 + h2 {
+	margin-top: 2em;
+	}
+h2 + h3 {
+	margin-top: 1.5em;
+	}
+
+h3 {
+	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: .91em;
+	text-align: left;
+	font-weight: normal;
+	line-height: 1.8em;
+	letter-spacing: .2em;
+	margin-bottom: 1.4em;
+	margin-top: 3em;
+	text-transform: uppercase;
+	}
+
+
+p + h3 {
+	margin-top: 4em;
+	}
+pre + h3 {
+	margin-top: 4em;
+	}
+
+h6 + h2 {
+	margin-top: 2em;
+	}
+
+
+h4, h5, h6 {
+	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 1em;
+	text-align: left;
+	font-weight: bold;
+	line-height: 1.8em;
+	margin: 2em 0 0 0;
+	}
+
+strong {
+	font-weight: normal;
+	font-size: .91em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	}
+
+em em {
+	font-style: normal;
+	}
+
+strong strong {
+	font-weight: bold;
+	}
+
+cite {
+	font-weight: normal;
+	font-style: italic;
+	}
+
+img {
+	margin-top: 5px;
+	max-width: 100%;
+	}
+
+
+thead {
+	font-weight: bold;
+	}
+
+
+ul, ol {
+	padding-left: 1.25em;
+	margin: 0 0 2em 1em;
+	}
+
+
+pre {
+	font-family: "Fira Code", Menlo, Monaco, monospace;
+	line-height: 1.45em;
+	color: #eee;
+	background-color: inherit;
+	margin: 2em 0 2.5em 0;
+	padding: 5px 0 5px 10px;
+	border-width: 1px 0 1px 0;
+	border-color: #6b6b6b;
+	border-style: dashed;
+	}
+
+code {
+	font-family: "Fira Code", Menlo, Monaco, monospace;
+	font-size: 1em; /* 1.09em for Courier */
+	}
+
+
+ul {
+	list-style-type: square;
+	}
+
+ul ul {
+	list-style-type: square;
+	}
+ul ul ul {
+	list-style-type: square;
+	}
+
+/*hr {
+	margin: 2em 1em 4em 0;
+	text-align: center;
+	border-color: #777;
+	border-width: 0;
+	border-style: dotted;
+	}*/
+hr {
+    margin: 2em 1em 4em 0;
+    border-color: #777;
+    border-width: 0;
+    text-align: center;
+    border-style: dotted;
+    border-bottom: 1px dotted #777;
+	}
+
+hr.ookiaks {
+	color: #bbb;
+	margin: 7em 0 11em 0;
+	padding-right: 2em;
+	height: 0;
+	border-width: 0;
+	background-color: inherit;
+	}
+hr.ookiaks-jr {
+	color: #bbb;
+	background-color: inherit;
+	margin: 1em 0 5em 0;
+	padding-right: 2em;
+	height: 0;
+	border-width: 0;
+	}
+
+/*
+	hr.ookiak:after rule that use content: to display bullets
+	is specified in a separate style sheet, saves as UTF-8 with
+	BOM. That way this main sheet can be saved without BOM.
+*/
+
+fieldset {
+	border: 1px dotted #777;
+	padding: 1em 1em .5em 1em;
+	margin: 0 0 2.5em 0;
+	}
+
+fieldset p {
+	margin-bottom: 0;
+	padding-bottom: 1em;
+	}
+
+legend {
+	color: #aaa;
+	background-color: inherit;
+	font-weight: normal;
+	font-size: .91em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	}
+
+dt {
+	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 1em;
+	text-align: left;
+	font-weight: normal;
+	margin: 0 0 .4em 0;
+	letter-spacing: normal;
+	text-transform: none;
+	}
+dd {
+	margin: auto auto 2.5em 2em;
+	}
+
+dd p {
+	margin: 0 0 1em 0;
+	}
+
+/* 
+::selection {
+	background-color: #73777C;
+	color: white;
+}
+ */
+
+input, select  {
+	font-size: 1em;
+	}
+input[type="text"], input[type="password"]   { background-color: #ddd; }
+/*
+input[type="submit"] { background-color: #ccc;  border-width: 1px; }
+*/
+select { background-color: #ddd; }
+
+audio {
+	height: 3em;
+	width:  100%;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+	audio {
+		height: 150px;
+	}
+}
+
+
+/**** Colors ***************************************************
+
+	Darker 30:			#3e454c;
+						#3f464c;
+	Slate BG:			#4a525a;
+	Adsense BG:			#535c66;
+	SmartyPants BG:		#606870;
+	Link:hover:			#626a73;
+
+	Link:bottom:		#999;
+	AdSense Border:		#727272;
+	Blockquote rule:	#777;
+	Stats Rule:			#666;
+
+****************************************************************/
+</style>
+
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+
+
 </head>
+
 <body>
-  <section class="menu cid-rrlpw68dKD" once="menu" id="menu1-3">
 
-    
+<p><head>
+    <link rel="stylesheet" href="Style.css">
+    <title>Andrew Robertson – Downloads</title>
+</head></p>
 
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                         <img src="assets/images/round...-york-80x80.png" alt="Mobirise" title="" style="height: 3.8rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="index.html">
-                        Andrew Robertson</a></span>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="xp.html"><span class="mbri-extension mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Career</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="resume.html"><span class="mbri-bookmark mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Résumé</a></li><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="text.html"><span class="mbri-globe-2 mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Links</a>
-                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="download.html"><span class="mbri-pages mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Documents</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="demo/index.html"><span class="mbri-sites mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Demo</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="map.html"><span class="mbri-more-horizontal mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Index</a></li></ul>
-            
-        </div>
-    </nav>
-</section>
+<h2 id="toc_0">Andrew Robertson</h2>
 
-<section class="engine"><a href="https://mobirise.info/m">website design templates</a></section><section once="footers" class="cid-rwJ6n1osQl" id="footer6-4">
+<table>
+<tr>
+    <td><a href="robeandr.github.io">Home</a> <b></b></td>
+    <td><a href="robeandr.github.io/xp.html">Career</a> <b></b></td>
+    <td><a href="robeandr.github.io/resume.html">Résumé</a> <b></b></td>
+    <td><a href="robeandr.github.io/text.html">Links</a> <b></b></td>
+    <td><a href="robeandr.github.io/download.html">Documents</a> <b></b></td>
+    <td><a href="robeandr.github.io/demo/index.html">Demo</a> <b></b></td>
+    <td><a href="robeandr.github.io/map.html">More</a> </td>
+</tr>
+</table>
 
-    
+<p><br></p>
 
-    
+<h1 id="toc_1">Documents &amp; Downloads</h1>
 
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">&nbsp;</p>
-            </div>
-        </div>
-    </div>
-</section>
+<h2 id="toc_2">Things I&rsquo;ve Done</h2>
 
-<section class="header1 cid-rwMBEYUkVW" id="header16-5">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-md-10 align-center">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    DOCUMENTS &amp; DOWNLOADS</h1>
-                
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">
-                    Things I’ve Done</p>
-                
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="mbr-section article content12 cid-rwMC3cI9UN" id="content12-6">
-     
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
-                <ul>
-                    <li><strong><a href="Downloads/Me.pdf">About Me</a></strong></li><li><strong><a href="Downloads/Drawing.pdf">Map</a></strong></li><li><a href="Downloads/YORKDALE.pdf">YORKDALE<strong> </strong>Sign</a></li><li><a href="Downloads/Vision.pdf">Engineering Vision</a> (<a href="Downloads/Vision.md">Markdown</a>)</li><li><a href="https://1drv.ms/v/s!AgmM8Yc9fJSIgcApQA0VdBDPuE80MA" target="_blank">Why Me? Video</a></li>
+<ul>
+                    <li><a href="Downloads/Me.pdf">About Me</a></li><li><a href="Downloads/Drawing.pdf">Map</a></li><li><a href="Downloads/YORKDALE.pdf">YORKDALE<strong> </strong>Sign</a></li><li><a href="Downloads/Vision.pdf">Engineering Vision</a> (<a href="Downloads/Vision.md">Markdown</a>)</li><li><a href="https://1drv.ms/v/s!AgmM8Yc9fJSIgcApQA0VdBDPuE80MA" target="_blank">Why Me? Video</a></li>
                 </ul>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="cid-rwMC4HNPJj mbr-reveal" id="footer1-7">
+<ul>
+<li><a href="../Downloads/LCMem.jpg">Lego City from Memory</a></li>
+<li><a href="../Downloads/LCMap.jpg">Map of Lego City</a></li>
+<li><a href="../Downloads/Lego_City.jpg">Final Map of Lego City</a></li>
+<li><a href="../Downloads/AMapLC.jpg">Aerial Map of Lego City</a></li>
+</ul>
 
-    
+<hr>
 
-    
+<blockquote>
+<p><em>© Copyright 2019 Andrew Robertson — Not liable for external links. Made in Ontario, Canada.</em></p>
+</blockquote>
 
-    <div class="container">
-        <div class="media-container-row content text-white">
-            <div class="col-12 col-md-3">
-                <div class="media-wrap">
-                    <a href="index.html">
-                        <img src="assets/images/andrew-192x128.jpg" alt="Professional photo of Andrew from 2018. " title="Andrew Robertson">
-                    </a>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <h5 class="pb-3">Lost?</h5>
-                <p class="mbr-text"><a href="map.html">Index</a><br><a href="text.html">Links</a></p>
-            </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <h5 class="pb-3">Questions?</h5>
-                <p class="mbr-text"><a href="mailto:robeandr@my.yorku.ca">robeandr@my.yorku.ca</a></p>
-            </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <h5 class="pb-3">Who Am I?</h5>
-                <p class="mbr-text"><a href="resume.html">Résumé</a></p>
-            </div>
-        </div>
-        <div class="footer-lower">
-            <div class="media-container-row">
-                <div class="col-sm-12">
-                    <hr>
-                </div>
-            </div>
-            <div class="media-container-row mbr-white">
-                <div class="col-sm-6 copyright">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2019 Andrew Robertson — Not liable for external links.&nbsp;Made in Ontario, Canada.</p>
-                </div>
-                <div class="col-md-6">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<p><a href="../index.html">Home</a></p>
 
 
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/script.min.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  
-  
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
 </body>
+
 </html>

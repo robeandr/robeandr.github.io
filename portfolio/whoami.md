@@ -40,4 +40,4 @@ _Good question._
 ***
 > _© Copyright 2019 Andrew Robertson — Not liable for external links. Made in Ontario, Canada._
 
-[Home](robeandr.github.io)
+[Home](../index.html)
