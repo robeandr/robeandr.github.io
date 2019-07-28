@@ -1,10 +1,6 @@
 @font-face {
    font-family: 'IBMPlexSans-Bold';
-   src: url('IBMPlexSans-Bold/font.ttf');
-}
-@font-face {
-   font-family: 'Verdana';
-   src: url('Verdana/font.ttf');
+   src: url('IBMPlexSans/IBMPlexSans-Bold.ttf');
 }
 
 @font-face {
