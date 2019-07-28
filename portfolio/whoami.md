@@ -23,7 +23,7 @@ _Good question._
 
 "On your mental treadmill, what takes priority? Your goals, or your dreams?"
 
-― Peter Oldring, _Dexter Guff is Smarter Than You_
+― Peter Oldring, [_Dexter Guff is Smarter Than You_](https://www.dexterguffband.com)[^1]
 > - Childhood
 > - Geomatics found me
 > - Career
@@ -38,6 +38,7 @@ _Good question._
 > - Personality
 
 ***
-> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made in Ontario, Canada._
+> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made with Markdown in Ontario, Canada._
 
 [Home](../index.html)
+[^1]: Listen on Overcast: <br> https://overcast.fm/itunes1277107546/dexter-guff-is-smarter-than-you <br> And an old favourite from the same people: <br> https://www.cbc.ca/radio/thisisthat   

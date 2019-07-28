@@ -1,6 +1,6 @@
 <head>
 	<link rel="stylesheet" href="../Style.css">
-	<title>Andrew Robertson – Who Am I?</title>
+	<title>Andrew Robertson – Who Am I?: Values and Personality</title>
 </head>
 ## Andrew Robertson – [Portfolio](whoami.html)
 <table>
@@ -52,9 +52,15 @@ Little or no pressure | Do things often with friends
 > - Limited uncompensated work
 
 ### Personality
+#### People Say This About Me:
+- Punctual and reliable
+- Self-motivated
+- Listening to and following instructions
+- Adapting instructions to properly fit situation (human intelligence) 
+- Giving others benefits of the doubt
 
 [^1]: In a fascinating book I read, _Traffic: Why We Drive the Way We Do_, it was stated that the best commute is actually 18min, not less. It gives the mind time to context-switch. 
 ***
-> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made in Ontario, Canada._
+> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made with sarcasm in Ontario, Canada._
 
 [Home](../index.html)

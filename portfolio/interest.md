@@ -1,6 +1,6 @@
 <head>
 	<link rel="stylesheet" href="../Style.css">
-	<title>Andrew Robertson – Who Am I?</title>
+	<title>Andrew Robertson – Who Am I?: Interests and Skills</title>
 </head>
 ## Andrew Robertson – [Portfolio](whoami.html)
 <table>
@@ -22,11 +22,18 @@
 > ― Leonard Nimoy, _The Ultimate Computer_
 
 ### What I Like
-Check out my [Links](https://robeandr.github.io/text.html). 
+Check out my [Links](../text.html). 
 
-### What I'm Like
+Or, go [home](../index.html).
+
+Or, [tour Toronto](https://www.tourbytransit.com/toronto/public-transit/streetcars) on the cheap. This is quite fun, and I've been doing it over the summer. 
+
+### Personal Dev Goals
+- I would like to better deal with uncertain, ambiguous, or unpredictable situations. 
+- Be more self-confident and "daring". 
+
 
 ***
-> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made in Ontario, Canada._
+> _© Copyright 2019 Andrew Robertson — Not liable for external links. Created in Ontario, Canada._
 
 [Home](robeandr.github.io)

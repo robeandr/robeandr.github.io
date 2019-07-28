@@ -1,6 +1,6 @@
 <head>
 	<link rel="stylesheet" href="../Style.css">
-	<title>Andrew Robertson – Who Am I?</title>
+	<title>Andrew Robertson – Who Am I?: Dreams and Goals</title>
 </head>
 ## Andrew Robertson – [Portfolio](whoami.html)
 <table>
@@ -34,8 +34,13 @@ I've always wanted to be an engineer, and have always been fascinated with trans
 I like maps. And I like transportation. The two go together, which in high school led to me taking all three available years of Geography: Canada, Europe and Asia, and Natural Disasters. Towards the end of high school, I started looking at civil engineering programs in Ontario as that’s what I wanted to do. However, the York University website included an article on “Geomatics Engineering” which combined geography, technology, and engineering: three of my biggest interests. So, off I went to Toronto! 
 
 ###Career
+I'm working on it; 
+
+- Public Sector
+- Involves mapping
+- Involves transportation
 
 ***
-> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made in Ontario, Canada._
+> _© Copyright 2019 Andrew Robertson — Not liable for external links. Made with something in Ontario, Canada._
 
 [Home](../index.html)
