@@ -1,5 +1,5 @@
 <head>
-	<link rel="stylesheet" href="Style.css">
+	<link rel="stylesheet" href="../Style.css">
 	<title>Andrew Robertson – Who Am I?</title>
 </head>
 ## Andrew Robertson – [Portfolio](whoami.html)
