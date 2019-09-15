@@ -121,6 +121,7 @@ sup a:visited {
 p {
  	margin: 0 0 1.6em 0;
 	padding: 0;
+	max-width: 825px;
 	}
 
 .footer{
