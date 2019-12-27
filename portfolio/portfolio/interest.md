@@ -34,6 +34,6 @@ Or, [tour Toronto](https://www.tourbytransit.com/toronto/public-transit/streetca
 
 
 ***
-> _© Copyright 2019 Andrew Robertson — Not liable for external links. Created in Ontario, Canada._
+> _© 2019 Andrew Robertson — Not liable for external links. Created in Ontario, Canada._
 
 [Home](robeandr.github.io)

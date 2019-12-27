@@ -1,21 +1,21 @@
 @font-face {
    font-family: 'IBMPlexSans-Bold';
-   src: url('IBMPlexSans/IBMPlexSans-Bold.ttf');
+   src: url('../IBMPlexSans/IBMPlexSans-Bold.ttf');
 }
 
 @font-face {
    font-family: 'IBM Plex Sans';
-   src: url('IBMPlexSans/IBMPlexSans-Regular.ttf');
+   src: url('../IBMPlexSans/IBMPlexSans-Regular.ttf');
 }
 @font-face {
    font-family: 'IBM Plex Sans';
    font-weight: lighter;
-   src: url('IBMPlexSans/IBMPlexSans-Light.ttf');
+   src: url('../IBMPlexSans/IBMPlexSans-Light.ttf');
 }
 @font-face {
    font-family: 'IBM Plex Sans';
    font-weight: bold;
-   src: url('IBMPlexSans/IBMPlexSans-Bold.ttf');
+   src: url('../IBMPlexSans/IBMPlexSans-Bold.ttf');
 }
 
 @charset "utf-8";
@@ -34,7 +34,7 @@ blockquote {
 	font-size: 1em;
 	margin: 2em 2em 2em 1em;
 	padding: 0 .75em 0 1.25em;
-	border-left: 1px solid #E77817;
+	border-left: 1px solid #0082C9;
 	border-right: 0px solid #777;
     outline: 0;
     vertical-align: baseline;
@@ -59,29 +59,14 @@ blockquote strong {
  */
 
 body {
-	/*
-	body{
-		margin:40px auto;
-		max-width:650px;
-		line-height:1.6;
-		font-size:18px;
-		color:#444;
-		padding:0 10px
-		}
-	h1,h2,h3{
-		line-height:1.2
-		}
-	*/
 	-webkit-text-size-adjust: none;
-	/*margin: 40px auto;*/
 	margin-top: 0;
 	padding: 0;
 	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
 	line-height: 1.8em;
 	text-align: left;
-	max-width: 760px;
-	background-color: #221F20;
-	color: #EEEEEE;
+	min-width: 760px;
+	background-color: #EEEEEE; 
 	/*#4a525a; /* dark blue slate thing */
 	}
 
@@ -91,7 +76,7 @@ a {
 
 a:link {
 	text-decoration: none;
-	color: #40AFD0;
+	color: #0082C9;
 	border-color: #0082C9;
 	border-width: 0 0 1px 0;
 	border-style: none none solid none;
@@ -100,7 +85,7 @@ a:link {
 	}
 
 a:visited {
-	color: #40AFD0; /*#A21A68;*/
+	color: #A21A68;
 	border-color: #A21A68;
 	border-width: 0 0 1px 0;
 	border-style: none none dotted none;
@@ -112,14 +97,8 @@ a:hover {
 	color: white;
 	text-decoration: none;
 	background-color: #0082C9;
-	border-color: #0082C9;
+	border-color: white;
 	}
-
-a:visited:hover {
-	color: white;
-	background-color: #A21A68;
-	border-color: #A21A68;
-}
 
 a em {
 	padding-bottom: 2px; /* Hack for WebKit; otherwise the underscore padding is 0 */
@@ -155,10 +134,9 @@ tr {
 .ri{
 	text-align: right;}
 
-table td + td { border-left:1px solid #0082C9; empty-cells: hide;}
+table td + td { border-left:1px solid #0082C9; }
 td {
 	padding: 0.5em;
-	/*empty-cells: hide;*/
 	}
 table th + th { border-left:1px solid #0082C9; }
 th {
@@ -172,9 +150,7 @@ h1 {
 	text-align: left;
 	font-weight: bold;
 	margin: 0em 0px 1.25em 0px;
-	background-color: #0082C9;
-	border-left: 0.3em solid; border-color: #005AAB;
-
+	background-color: #175690;
 	color: white;
 	}
 
@@ -187,8 +163,6 @@ h2 {
 	letter-spacing: .2em;
 	margin: 4em 0 1em 0;
 	text-transform: uppercase;
-	border-top: 0.3em solid;
-	border-color: #A21A68;
 	}
 
 h1 + h2 {
@@ -404,7 +378,7 @@ and (max-device-width : 568px) {
 }
 
 
-/**** Colours ***************************************************
+/**** Colors ***************************************************
 
 	Darker 30:			#3e454c;
 						#3f464c;
