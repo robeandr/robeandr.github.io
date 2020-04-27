@@ -191,6 +191,11 @@ h2 {
 	border-color: #F8C300;
 	}
 
+h2.streetcar {
+	border-top: 0.3em solid;
+	border-color: #D8232A;
+	}
+
 h1 + h2 {
 	margin-top: 2em;
 	}
