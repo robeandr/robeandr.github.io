@@ -12,6 +12,7 @@
 
 <p>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="SidebarStyle.css">
     <title>Andrew Robertson – MTT</title>
 </p>
 
@@ -38,7 +39,22 @@
 
 <a href="Signs.html">More on Signage</a>
 
+<div class="left">
+	<!-- <img src="MTTs/YU_Side.jpeg" alt="YORK UNIVERSITY Platform sidebar image" width="225"> -->
+	<!--<img srcset="MTTs/YU_Side.jpeg 225w,
+             MTTs/YU_Side1.jpeg 168w"
+     sizes="(max-width: 480px) 225px,
+            168px"
+     src="MTTs/YU_Side.jpeg" width="225" -->
+     <picture>
+     	<source media="(min-width: 480px)" srcset="MTTs/YU_Side.jpeg">
+     	<img src="MTTs/YU_Side1.jpeg"  alt="YORK UNIVERSITY Platform sidebar image" width="225">
+     </picture>
+</div>
+
+
 <h2 id="toc_2">Tales</h2>
+<div class = "right">
 <ul>
 <li>
 <a href="#toc_3">Line 1 Yonge</a>
@@ -62,6 +78,8 @@
 
 <h3 id="506"><a href="MTTs/506Carlton.html"><img src="MTTs/506.svg" alt="Lozenge" height="22"> 506 Carlton</a></h3>
 <p>Streetcar to the trees! </p>
+</div>
+
 
 <blockquote>
 <h2 id="toc_5">Note:</h2>
@@ -80,7 +98,7 @@
 <hr>
 
 <blockquote>
-<p><em>© 2019 Andrew Robertson — Not liable for external links. Mashed up in Ontario, Canada.</em></p>
+<p style="font-size: 0.8em;">© 2020 Andrew Robertson — Not liable for external links. <br>Cobbled together with HTML and CSS in Ontario.<br>Proudly JavaScript free.</p>
 </blockquote>
 
 <p><a href="http://robeandr.github.io">Go Home</a></p><br>

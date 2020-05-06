@@ -1,0 +1,15 @@
+@media only screen and (min-width: 500px) {
+.left {
+position: absolute;
+width: 225px;
+padding-top: 6.5em;
+}
+
+.right {
+padding-left: 250px;
+}
+.left,
+.right {
+  /*float: left;*/
+}
+}
