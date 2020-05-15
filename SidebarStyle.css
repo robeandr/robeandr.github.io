@@ -1,3 +1,4 @@
+/* See: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
 @media only screen and (min-width: 500px) {
 .left {
 position: absolute;
@@ -12,4 +13,18 @@ padding-left: 250px;
 .right {
   /*float: left;*/
 }
+}
+
+/* For putting text _on_ images. Wrap the image and text in the “container 
+class”, and then the text is an “Overlay” class. */
+.container {
+  position: relative;
+  width: 100%;
+  }
+  
+.Overlay {
+position: relative;
+  bottom: 30px; /*Adjust for how far from the bottom of the image the text should be */
+  left: 8px; /*For how far from the left edge the text should be */
+    margin: 0 0 2em 0; /*Spacing from bottom  */
 }
