@@ -1,8 +1,10 @@
 @font-face {
    font-family: 'IBMPlexSans-Bold';
+   font-display: swap;
    src: url('IBMPlexSans-Bold/font.ttf');
 }
 @font-face {
    font-family: 'Verdana';
+   font-display: swap;
    src: url('Verdana/font.ttf');
 }
