@@ -284,7 +284,7 @@ ul, ol {
 
 
 pre {
-	font-family: "Fira Code", Menlo, Monaco, monospace;
+	font-family: "JetBrains Mono", "Fira Code", Monaco, Courier, monospace;
 	line-height: 1.45em;
 	color: #eee;
 	background-color: inherit;
@@ -296,7 +296,7 @@ pre {
 	}
 
 code {
-	font-family: "Fira Code", Menlo, Monaco, monospace;
+	font-family: "JetBrains Mono", "Fira Code", Monaco, Courier, monospace;
 	font-size: 1em; /* 1.09em for Courier */
 	}
 
