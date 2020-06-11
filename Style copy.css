@@ -50,7 +50,6 @@ blockquote {
 	font-weight: bold;
 	margin: 0em 0px 0em 0px;
 	color: black;
-	max-width: 1025px !important;
 	}
 
 code{
@@ -150,7 +149,7 @@ sup a:visited {
 p {
  	margin: 0 0 1.6em 0;
 	padding: 0;
-	max-width: 750px;
+	max-width: 825px;
 	}
 
 .footer{
@@ -181,8 +180,7 @@ h1 {
 	line-height: 1.5em;
 	text-align: left;
 	font-weight: bold;
-/*	margin: 0em 0px 1.25em 0px;*/
-		margin: 0em 0px 0.25em 0px;
+	margin: 0em 0px 1.25em 0px;
 	background-color: #0082C9;
 	border-left: 0.3em solid; border-color: #005AAB;
 
@@ -322,12 +320,8 @@ ul ul ul {
 	border-style: dotted;
 	}*/
 hr {
-    border-color: white;
-	    border-width: 0;
-	    text-align: center;
-	    border-style: solid;
     margin: 2em 1em 1em 0;
-    border-bottom: 0.2em solid white;
+    border-bottom: 0.1em solid white;
 	}
 
 fieldset {
@@ -367,12 +361,12 @@ dd p {
 	margin: 0 0 1em 0;
 	}
 
- 
-/*::selection {
-	background-color: #EEEEEE;
-	color: #221F20;
-}*/
- 
+/* 
+::selection {
+	background-color: #73777C;
+	color: white;
+}
+ */
 
 input, select  {
 	font-size: 1em;
@@ -393,131 +387,5 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
 	audio {
 		height: 150px;
-	}
-}
-
-@media (prefers-color-scheme: light) {
-	body {
-		/*
-		body{
-			margin:40px auto;
-			max-width:650px;
-			line-height:1.6;
-			font-size:18px;
-			color:#444;
-			padding:0 10px
-			}
-		h1,h2,h3{
-			line-height:1.2
-			}
-		*/
-		background-color: #EEEEEE;
-		color: #221F20;
-		}
-
-	blockquote {
-		border-left: 1.5px solid #00923F;
-		border-right: 0px solid #777;
-	    outline: 0;
-	    vertical-align: baseline;
-	    background: transparent;
-	    /*background-color: #484B56;*/
-		}
-		
-	.Record {
-		font-weight: bold;
-		margin: 0em 0px 0em 0px;
-		color: black;
-		}
-
-	code{
-	  background-color: #969594;
-	  border-radius: 3px; 
-	}
-	/* 
-	blockquote strong {
-		font-weight: bold;
-		font-size: 1em;
-		letter-spacing: normal;
-		text-transform: none;
-		}
-	 */
-
-
-	a:link {
-		color: #0082C9;
-		border-color: #0082C9;
-
-		background-color: inherit;
-		}
-
-	a:visited {
-		color: #0082C9; /*#A21A68;*/
-		border-color: #A21A68;
-		
-		background-color: inherit;
-		}
-
-	a:hover {
-		color: white;
-		background-color: #0082C9;
-		border-color: #0082C9;
-		}
-
-	a:visited:hover {
-		color: white;
-		background-color: #A21A68;
-		border-color: #A21A68;
-	}
-
-	table td + td { border-left:1px solid #0082C9; empty-cells: hide;}
-	table th + th { border-left:1px solid #0082C9; }
-	th { border-bottom:1px solid #0082C9; }
-
-	h1 {
-		background-color: #0082C9;
-		border-left: 0.3em solid; border-color: #005AAB;
-		color: white;
-		}
-
-	h2 {
-		border-color: #F8C300;
-		}
-
-
-	pre {
-		color: #eee;
-		background-color: inherit;
-		border-color: #6b6b6b;
-		border-style: dashed;
-		}
-
-
-	hr {
-	    border-color: #969594;
-	    border-width: 0;
-	    text-align: center;
-	    border-style: dotted;
-	    border-bottom: 1px dotted #969594;
-		}
-
-	fieldset {
-		border: 1px dotted #777;
-		}
-
-	 
-	::selection {
-		background-color: #005AAB;
-		color: white;
-	}
-
-
-	
-	input[type="text"], input[type="password"]   { background-color: #ddd; }
-	/*
-	input[type="submit"] { background-color: #ccc;  border-width: 1px; }
-	*/
-	select { background-color: #ddd; }
-
 	}
 }
