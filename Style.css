@@ -155,6 +155,7 @@ p {
 
 .footer{
 	width: 100%;
+	font-size: 0.8em;
 	}
 tr {
 	text-transform: uppercase;
@@ -213,6 +214,26 @@ h1 + h2 {
 h2 + h3 {
 	margin-top: 1.5em;
 	}
+
+h1 a:link {
+		color: #F0E68C;
+	}
+h1 a:visited {
+		color: #552200;
+	}
+
+h1 a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #0082C9;
+	border-color: #0082C9;
+	}
+
+h1 a:visited:hover {
+	color: white;
+	background-color: #A21A68;
+	border-color: #A21A68;
+}
 
 h3 {
 	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, "Bitstream Vera Sans", sans-serif;
@@ -484,6 +505,9 @@ and (max-device-width : 568px) {
 		border-color: #F8C300;
 		}
 
+		h2 a:link {
+		color: #F0E68C;
+	}
 
 	pre {
 		color: #eee;
