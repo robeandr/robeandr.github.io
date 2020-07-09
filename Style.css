@@ -1,4 +1,27 @@
 @font-face {
+   font-family: 'Fira Code';
+   src: url('FiraCode/FiraCode-Retina.ttf');
+}
+
+@font-face {
+   font-family: 'Fira Code';
+   font-weight: lighter;
+   src: url('FiraCode/FiraCode-Light.ttf');
+}
+
+@font-face {
+   font-family: 'Fira Code';
+   font-weight: bold;
+   src: url('FiraCode/FiraCode-Bold.ttf');
+}
+
+@font-face {
+   font-family: 'Fira Code';
+   font-weight: bolder;
+   src: url('FiraCode/FiraCode-Medium.ttf');
+}
+
+@font-face {
    font-family: 'IBMPlexSans-Bold';
    src: url('IBMPlexSans/IBMPlexSans-Bold.ttf');
 }
