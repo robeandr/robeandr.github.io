@@ -5,5 +5,5 @@
 </script>
 ***
 ###### Plaques:  
-[About the Mill](images/Mill%20History.pdf)  
-[About Grass Park](images/Grass%20Park.pdf)
+[About the Mill](../../MTTs/DTTs/images/Mill%20History.pdf)  
+[About Grass Park](../../MTTs/DTTs/images/Grass%20Park.pdf)
