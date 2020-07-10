@@ -40,7 +40,7 @@
 </table>
 <br>
 # MTT
-#### → Go to http://robeandr.github.io/MTT
+#### → Go to [robeandr.github.io/MTT](http://robeandr.github.io/MTT)
 <!-- Redirect https://css-tricks.com/redirect-web-page/ -->
 <script type="text/javascript">
 	location = "MTT.html";
