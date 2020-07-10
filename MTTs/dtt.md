@@ -1,6 +1,6 @@
 <head>
 	<link rel="stylesheet" href="Style.css">
-	<title>Andrew Robertson – MTT</title>
+	<title>Andrew Robertson – DTT</title>
 	<!-- ****** faviconit.com favicons ****** -->
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
@@ -43,7 +43,7 @@
 #### → Go to [robeandr.github.io/MTTs/DTT](http://robeandr.github.io/MTTs/DTT)
 <!-- Redirect https://css-tricks.com/redirect-web-page/ -->
 <script type="text/javascript">
-	location = "MTT.html";
+	location = "DTT.html";
 </script>
 
 [Go Home](robeandr.github.io)
