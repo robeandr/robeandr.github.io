@@ -7,4 +7,3 @@
 ###### Plaques:  
 [About the Mill](images/Mill%20History.pdf)  
 [About Grass Park](images/Grass%20Park.pdf)
-***
