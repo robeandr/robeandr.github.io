@@ -485,7 +485,7 @@ and (max-device-width : 568px) {
 	    /*background-color: #484B56;*/
 		}
 		
-		aside {
+	aside {
     background-color: #DFDDDD;
     box-shadow: 0px 0px 30px 0px #DFDDDD;
 	}
