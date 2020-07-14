@@ -49,11 +49,12 @@
 	Based on: Daring Fireball CSS, Copyright (c) 2018 John Gruber. Layout No. 2 / v1.9
 */
 
-html {
+
 	/* cf. http://www.hicksdesign.co.uk/journal/forcing-scrollbars-now-even-better */
+/*html {
 	height: 100%;
 	margin-bottom: 1px;
-	}
+	}*/
 
 object{
 	width: 100%;
