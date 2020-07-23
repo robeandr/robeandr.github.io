@@ -380,6 +380,20 @@ img {
 	margin: 2em 0px 0px 0em;
 	text-indent: 2em;
 	}
+	
+.hidden img {
+	/* margin-top: 5px; */
+	max-width: 100%;
+	margin: 5px 0px 0px 0em;
+	text-indent: 2em;
+	}
+	
+img.hidden  {
+	/* margin-top: 5px; */
+	max-width: 100%;
+	margin: 5px 0px 0px 0em;
+	text-indent: 2em;
+	}
 
 
 thead {
