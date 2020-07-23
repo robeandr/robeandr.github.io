@@ -375,8 +375,10 @@ cite {
 	}
 
 img {
-	margin-top: 5px;
+	/* margin-top: 5px; */
 	max-width: 100%;
+	margin: 2em 0px 0px 0em;
+	text-indent: 2em;
 	}
 
 
