@@ -102,7 +102,10 @@ aside {
 
 .Record {
 	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, sans-serif;
-	font-size: 4em;
+	font-size: 4em; /*4em redundancy for clueless browsers*/
+	font-size: 6.25vmin; /*This will scale the size based on height or (on 
+					portrait devices) width. This means it should fit on 
+					phones and look OK on desktops.*/
 	line-height: 1.5em;
 	text-align: left;
 	font-weight: bold;
