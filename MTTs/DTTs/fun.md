@@ -1,5 +1,6 @@
 <title>Fun Ontario Road Facts | Andrew Robertson</title>
 <link rel="stylesheet" href="../../Style.css">
+<link rel="stylesheet" href="../../SidebarStyle.css">
 <!-- ****** faviconit.com favicons ****** -->
 	<link rel="shortcut icon" href="../../favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="../../favicon.ico">
@@ -81,11 +82,21 @@ Lake Ridge Rd has Durham's [newest roundabout](https://www.openstreetmap.org/?ml
 [Roundabouts](https://goo.gl/maps/dQxLqWcmnTZusZaeA) are circular and all roads approach them head-on so drivers can't just go straight on through. Older designs, called ''rotaries'' were tapered and had smooth exit and entrance roads so that drivers wouldn't feel forced to slow down, leading to more dangerous conditions (even though rotaries *feel* smoother). York University has several [examples](https://goo.gl/maps/VPNhC8Nsm5UmQCh77) of what were then cutting-edge free-flowing[^f] rotaries. (Why they're replacing them with [traffic signals](https://goo.gl/maps/rUF7mdKaJogtSZTa8) and not roundabouts I have no idea!) Traffic circles had vehicles in the circle yield to vehicles entering, so they would actually lock up whenever there was any traffic! 
 
 ### Rail Safety
-#### Safety Tip:  
-There’s an emergency number posted at every North American level crossing you can call if something is stuck or broken. Call it and not 911 if you ever get stranded on the tracks. They can talk to trains. 911 can’t.
+<div class="rightt">
 
-#### Safety Tip 2:  
-If your vehicle is stuck on the tracks, leave and walk away at a 45º angle to the tracks (preferably towards the train if one is coming) to minimize the chances you’re hit by flying debris. Then call the emergency number (usu. posted on the back of one of the X’s or the control box). Call 911 second or if someone is injured.
+<a href="https://photos.google.com/u/1/share/AF1QipPPLpsmAbNvJ6BMnDZqccIFkH0oHoWzVyKJJyRW8gcGWVwX964NkJDcCN4TPSRZIA/photo/AF1QipO8ivVrCA4J78JG3eyF6g7WhDzBV1kUiHZqnlpu?key=VVl3OFAwMXpJcEtZdjhnekgwWnU5NHZxQ3dKV2tR">
+<img src="images/fun-train-crossing.jpg" width="316px"></a>
+
+</div>
+
+
+<div class="leftt">
+<h4>Safety Tip:  </h4>
+<p>There’s an emergency number posted at every North American level crossing you can call if something is stuck or broken. Call it and not 911 if you ever get stranded on the tracks. They can talk to trains. 911 can’t.</p>
+
+<h4>Safety Tip 2:  </h4>  
+<p>If your vehicle is stuck on the tracks, leave and walk away at a 45º angle to the tracks (preferably towards the train if one is coming) to minimize the chances you’re hit by flying debris. Then call the emergency number (usu. posted on the back of one of the X’s or the control box). Call 911 second or if someone is injured.</p>
+</div>
 
 [DING DING DING DING...](https://photos.google.com/share/AF1QipPPLpsmAbNvJ6BMnDZqccIFkH0oHoWzVyKJJyRW8gcGWVwX964NkJDcCN4TPSRZIA/photo/AF1QipO8ivVrCA4J78JG3eyF6g7WhDzBV1kUiHZqnlpu?key=VVl3OFAwMXpJcEtZdjhnekgwWnU5NHZxQ3dKV2tR)
 

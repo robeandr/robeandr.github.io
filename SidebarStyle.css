@@ -13,8 +13,19 @@ padding-left: 250px;
 .right {
   /*float: left;*/
 }
+
+
+.leftt {
+/* position: absolute; */
+width: 375px;
+/* padding-top: 6.5em; */
 }
 
+.rightt {
+padding-left: 400px;
+position: absolute;
+}
+}  /* END WIDESCREEN FORMAT*/
 /* For putting text _on_ images. Wrap the image and text in the “container 
 class”, and then the text is an “Overlay” class. */
 .container {
