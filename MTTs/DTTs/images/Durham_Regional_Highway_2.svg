@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Regional Highway 2 - Durham Region -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="450" height="450">
+
+	<title>
+
+		Regional Highway 2 - Durham Region
+
+	</title>
+	<defs>
+		
+		<g id="municipal_durhamregion" transform="scale(1.965066,1.948052)" style="fill-rule:evenodd">
+
+			<path d="m0 0h229l-45 231h-139z" style="fill:#ffffff"/>
+			<path d="m3.75 3h221.5l-43.5 224h-134.5zm3.75 3h214l-42 217h-130z"/>
+			<path d="m33 30h10q10.5 0 10.5 19.25t-10.5 19.25h-10zm5 5.5h4q 6 0 6 13.75t-6 13.75h-4z"/>
+			<path d="m60 30h5v30q0 4.5 5.5 4.5t5.5 -4.5v-30h5v30q0 9.5 -10.5 9.5t-10.5 -9.5z"/>
+			<path d="m88 30h12.5q8 0 8 10.25 0 8.75 -5.5 9.75l5 18.5h-5.5l-5 -18h-4.5v18h-5.5zm5 5.5h7.5q3 0 3 4.75t-3 4.75h-7.5z"/>
+			<path d="m115.5 30h5.5v15.5h10.5v-15.5h5.5v38.5h-5.5v-17.5h-10.5v17.5h-5.5z"/>
+			<path d="m151.5 30h5.5l8.5 39h-5.5l-2.5 -11h-8l-2.5 11h-5.5zm2.75 12.5 2 10.5h-5z"/>
+			<path d="m172 30h5l7 21 7 -21h5v39h-5v-21l-7 21 -7 -21v21h-5z"/>
+			<path d="m67 173.5h9q5 0 5 7 0 7 -4 7l4 12.5h-4l-3.5 -12.5h-3v12.5h-4zm3.5 3.5h5q2 0 2 3.5t-2 3.5h-5z"/>
+			<path d="m85.5 173.5h12.5v4h-9v7h5.5v3.5h-5.5v8.5h9v4h-12.5z"/>
+			<path d="m108.75 173q7.25 0 7.25 7h-4q0 -3 -3.25 -3 -3.75 0 -3.75 10t3.75 10q3.25 0 3.25 -3v-3h-3v-3.5h7v6.5q0 7 -7.25 7t-7.25 -14 7.25 -14z"/>
+			<path d="m120 173.5h4v27h-4z"/>
+			<path d="m135.75 173q7.75 0 7.75 14t-7.75 14 -7.75 -14 7.75 -14zm0 4q3.75 0 3.75 10t-3.75 10 -3.75 -10 3.75 -10z"/>
+			<path d="m147.5 173.5h4l6.5 15v-15h4v27h-4l-6.5 -15v15h-4z"/>
+
+		</g>
+		<g id="municipal_durhamregionhighway">
+
+			<use xlink:href="#municipal_durhamregion"/>
+			<g transform="scale(1.965066,1.948052)" style="fill-rule:evenodd">
+
+				<path d="m69.5 76h2v5.5h5.5v-5.5h2v13h-2v-5.5h-5.5v5.5h-2z"/>
+				<path d="m83.5 76h2v13h-2z"/>
+				<path d="m95.5 75.5q6 0 6 4.5h-2.5q0 -2.5 -3.5 -2.5t-3.5 5 3.5 5 3.5 -2.5v-1h-3v-2h5v7h-2v-1q0 1.5 -3.5 1.5 -6 0 -6 -7t6 -7z"/>
+				<path d="m105.5 76h2v5.5h5.5v-5.5h2v13h-2v-5.5h-5.5v5.5h-2z"/>
+				<path d="m119 76h2l2.5 9 2.5 -9h2l2.5 9 2.5 -9h2l-3.5 13h-2l-2.5 -9 -2.5 9h-2z"/>
+				<path d="m139.5 76h3l4 13h-2l-1 -2.5h-5l-1 2.5h-2zm1.5 3 2 5.5h-4z"/>
+				<path d="m147.5 76h2l3 6 3 -6h2l-4 8v5h-2v-5z"/>
+
+			</g>
+
+		</g>
+		<path id="two" transform="matrix(4.906915,0,0,-4.906915,-1494.540565,-417.441857)" d="m 304.57845,-162.283 c 0,14.71328 4.31268,24.00372 12.38504,34.95332 7.96473,10.83823 17.91875,12.38973 17.91875,20.5741 0,3.75997 -3.31804,9.290437 -9.50869,9.290437 -6.30571,0 -9.84639,-5.530467 -9.84639,-9.624497 l -10.94871,0 0,2.32354 c 0,5.196401 6.52471,18.250561 20.7951,18.250561 13.15698,0 21.01039,-10.838232 21.01039,-20.240041 0,-5.41914 -0.772,-11.17229 -13.16072,-20.02104 -8.84801,-6.30622 -15.81434,-20.90447 -15.81434,-24.44545 l 28.97506,0 0,-11.06093 -41.80549,0 z"/>
+			
+	</defs>
+
+	<!-- IMAGE -->
+	<use xlink:href="#municipal_durhamregionhighway"/>
+	<use xlink:href="#two" transform="matrix(0.358398,0,0,0.358398,190,185.555556)"/>
+
+</svg>
