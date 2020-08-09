@@ -491,7 +491,9 @@ a + h2{
 	max-width: 1025px !important;
 }
  
-
+.imgsvg {
+	background-color: #EEEEEE;
+}
 input, select  {
 	font-size: 0.95em;
 }
@@ -594,6 +596,9 @@ audio {
 		text-transform: uppercase;
 	}
 
+	.imgsvg {
+		background-color: transparent;
+	}
 }
 }
 /* https://stackoverflow.com/questions/14984643/css-pick-a-random-color-from-array */
