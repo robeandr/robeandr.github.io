@@ -49,8 +49,13 @@ aside {
 	line-height: 1.7em;
 /* 	min-height: 2em; */
 /* 	OPTIONS */
+    background-color: #001221;
+    box-shadow: 0px 0px 30px 0px #001221;
+    
+/* 
     background-color: #16161D;
     box-shadow: 0px 0px 30px 0px #16161D;
+ */
     color: #979FA8;
     /* 
     background-color: #513636;
@@ -497,7 +502,24 @@ a + h2{
 	color: black;
 	max-width: 1025px !important;
 }
- 
+
+.error{
+	font-size: 2em;
+	color: #ee3124;
+	text-shadow: 0px 0px 15px #98002e;
+}
+
+.error-txt{
+	color: #ee3124;
+/* 	text-shadow: 0px 0px 5px #98002e; */
+}
+
+aside.err{
+/* Same as aside
+    background-color: #001221;
+    box-shadow: 0px 0px 30px 0px #001221;
+ */
+}
 .imgsvg {
 	background-color: #EEEEEE;
 }
@@ -605,6 +627,11 @@ audio {
 
 	.imgsvg {
 		background-color: transparent;
+	}
+	
+	.error{
+		color: firebrick;
+		text-shadow: 0px 0px 200px #ee3124;
 	}
 }
 }
