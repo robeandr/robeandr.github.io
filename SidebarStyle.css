@@ -40,3 +40,7 @@ position: relative;
     margin: 0 0 2em 0; /*Spacing from bottom  */
 color: white;
 }
+
+.real-body{
+    max-width: 800px;
+    }
