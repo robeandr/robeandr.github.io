@@ -503,6 +503,10 @@ a + h2{
 	max-width: 1025px !important;
 }
 
+.Title {
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, sans-serif;
+}
+
 .error{
 	font-size: 2em;
 	color: #ee3124;
