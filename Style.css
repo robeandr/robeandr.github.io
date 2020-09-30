@@ -336,7 +336,7 @@ img.hidden  {
 /* Future image */
 img.f {
 	max-width: 90%;
-	margin: 0em 2em 1em 2em;
+	margin: 0em 2em 0.4em 2em;
 }
 
 /* LIST FITTING */
