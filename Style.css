@@ -431,13 +431,13 @@ dt {
 dd {
 	margin: auto auto 2.5em 2em;
 	list-style-type: disc;
-	font-family: Tahoma, Verdana, sans-serif;
+	font-family: ui-serif, Charter, serif;
 	font-size: 0.9em;
 }
 
 dd p {
 	margin: 0 0 1em 0;
-	font-family: Geneva, Verdana, "Bitstream Vera Sans", sans-serif;;
+	font-family: ui-serif, Charter, serif;
 	font-size: 1em;
 }
 
@@ -544,12 +544,21 @@ audio {
 	}
 }
 
+/* 
+::selection {
+	background-color: #EEEEEE;
+	color: #221F20;
+}
+ */
+
 /* IN LIGHT MODE... */
 @media (prefers-color-scheme: light) {
-	::selection {
+	/* 
+::selection {
 		background-color: #005AAB;
 		color: white;
 	}
+ */
 	
 	body {
 		background-color: #EEEEEE;
