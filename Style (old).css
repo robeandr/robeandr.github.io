@@ -1,6 +1,7 @@
-@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@charset "utf-8";
 
 /* 1.65em is minimum line height, it seems (§a)
 	p uses 1.8
@@ -9,7 +10,8 @@
 
 object{
 	width: 100%;
-}
+/*	height: 13em;
+*/}
 
 object.chart{
 	width: 100%;
@@ -18,10 +20,10 @@ object.chart{
 
 /* Getting things set up. Go from least to most specific. */
 
-body { /*The body provides something for everything to hang off of. A "last-ditch style".*/
-	/*-webkit-text-size-adjust: none;*/ /*Disable automatic scaling on iOS devices*/
+body { /*The body provides something for everything to hang off of. A last-ditch style.*/
+	-webkit-text-size-adjust: none;
 	margin-top: 0px;
-	font-family: Geneva, "Segoe UI", Verdana, "Helvetica Neue", "Franklin Gothic Book", "Bitstream Vera Sans", sans-serif;
+	font-family: Geneva, Verdana, "Bitstream Vera Sans", sans-serif;
 	max-width: 800px;
 	background-color: #221F20;
 	color: #EEEEEE;
@@ -38,7 +40,6 @@ p { /*This is like the body, but more specific.*/
 }
 
 aside {
-	/*font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;*/
 	font-size: 0.9em;
 	margin: 2em 2em 2em 1em;
 	padding: 0 .75em 0 1.25em;
@@ -46,27 +47,36 @@ aside {
 	vertical-align: middle;
 	border-radius: 12px;
 	line-height: 1.7em;
-	max-width: 650px;
-
+/* 	min-height: 2em; */
+/* 	OPTIONS */
     background-color: #001221;
     box-shadow: 0px 0px 30px 0px #001221;
+    
+/* 
+    background-color: #16161D;
+    box-shadow: 0px 0px 30px 0px #16161D;
+ */
     color: #979FA8;
+    /* 
+    background-color: #513636;
+    box-shadow: 0px 0px 30px 0px #513636;
+    color: #DBD9D8;
+ 	*/
+	/* 
+     background-color: #2E2A2C;
+    box-shadow: 0px 0px 30px 0px #2E2A2C;
+    color: #DBD9D8;
+ 	*/
 }
 	
 blockquote {
-	font-size: 0.95em;
+	font-size: 1em;
 	margin: 2em 2em 2em 1em;
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
-	
-	border-left: 3px solid #8BCA98;
-	color: #EEEEEE;
-
-	background: rgb(150,149,148);
-	background: linear-gradient(70deg, rgba(150,149,148,0.5) 0%, rgba(150,149,148,0.3) 50%, rgba(150,149,148,0.5) 100%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, .15);
+	padding: 0 .75em 0 1.25em;
+	border-left: 1.5px solid #33cc99;
+    /*background-color: #484B56;*/
+    color: #ECECEC;
 }
-
-blockquote.black {background: #221F20; box-shadow: none;}
 
 pre {
 	color: inherit;
@@ -79,24 +89,19 @@ code{
 	margin: 0 2px;
 	padding: 0 5px;
 	white-space: nowrap;
-	background-color: #4a525a;
+	background-color: #4B4F54;
 	border-radius: 3px; 
 	
-	font-family: "Fira Code", Monaco, "Lucida Console", "JetBrains Mono", Courier, monospace;
+	font-family: "Fira Code", Monaco, Courier, monospace;
 	font-size: 1em; /* 1.09em for Courier */
 	color: white;
 }
- 
+/* 
 code::selection {
 		background-color: #33cc99;
 		color: white;
 }
-
-pre::selection {
-		background-color: #33cc99;
-		color: white;
-}
-
+ */
 
 a {
 	text-decoration: none;
@@ -144,42 +149,26 @@ sup {
 	width: 90%;
 	font-size: 0.8em;
 	margin: 0 5% 25px 5%;
-	font-family: "Helvetica Neue", "Segoe UI", Helvetica, Geneva, Tahoma, ui-sans-serif, "Bitstream Vera Sans", sans-serif;
 }
 
 /* TABLES */
-table {border-collapse: collapse;}
-td {padding: 0.5em;}
-
-thead, th {
+thead {
 	font-weight: bold;
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
-	font-size: 1.1em;
-	background-color: #0082C9;
-	color: white;
-}
-
-th::selection {
-	background-color: white;
-	color: #0082C9;
 }
 
 tr {
-	font-family: 
-	/*"IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, */
-	Geneva, 
-	/*Helvetica, */
-	Tahoma, Verdana, "Bitstream Vera Sans", sans-serif;
+	text-transform: uppercase;
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Georgia, serif;
 	font-weight: lighter;
-	font-size: 0.8em;
+	font-size: 0.75em;
 }
 
-table td + td { 
-	border-left:1px solid #0082C9; 
-	empty-cells: hide;
-	}
-
 .ri{text-align: right;}
+
+table td + td { border-left:1px solid #0082C9; empty-cells: hide;}
+td {padding: 0.5em;}
+table th + th { border-left:1px solid #0082C9; }
+th { border-bottom:1px solid #0082C9; }
 
 .hidden td, th {
 	border: 0px;
@@ -192,7 +181,7 @@ table td + td {
 
 /* HEADINGS */
 h1 {
-	font-family: "IBM Plex Sans", "Proxima Nova","Avenir Next", Avenir, Tahoma, Verdana, sans-serif;
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, sans-serif;
 	font-size: 2em; /* was 1.46em for Georgia */
 	line-height: 1.5em;
 	text-align: left;
@@ -228,14 +217,16 @@ h1 a:visited:hover {
 }
 
 h2 {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
-	font-size: 1.65em;
-	line-height: 1.5em;
+	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 1.1em; /* 1 */
 	text-align: left;
 	font-weight: normal;
-	text-transform: uppercase; letter-spacing: .1em;
-	margin: 0em 0px 0.25em 0px;
-	border-top: 0.2em solid; 
+	line-height: 1.75em;
+	letter-spacing: .2em;
+	margin: 0 0 1em 0em;
+	padding-left: 0.25em;
+	text-transform: uppercase;
+	border-top: 0.3em solid;
 	border-color: #F8C300;
 }
 
@@ -248,16 +239,17 @@ h1 + h2 {
 }
 
 h3 {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
-	font-size: 1.1em;
+	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-size: 1em;
 	text-align: left;
 	font-weight: normal;
- 	line-height: 1.75em;
-	letter-spacing: 0.2em;
-	margin: 1.5em 0 0.2em 0em;
-	padding-left: 0.25em;
+/* 	line-height: 1.8em; */
+	letter-spacing: .2em;
+	margin-bottom: 0.4em;
+	padding-left: 0.5em;
+/* 	margin-top: 3em; */
 	text-transform: uppercase;
-	border-top: 0.3em solid;
+	border-top: 0.125em solid;
 	border-color: #00923F;
 }
 
@@ -274,7 +266,7 @@ h6 + h2 {
 
 
 h4 {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
+	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, "Bitstream Vera Sans", sans-serif;
 	font-size: 1.1em;
 	text-align: left;
 	font-weight: bold;
@@ -286,7 +278,7 @@ h4 {
 }
 
 h5 {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
+	font-family: "IBM Plex Sans", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, "Bitstream Vera Sans", sans-serif;
 	font-size: 1em;
 	text-align: left;
 	font-weight: bold;
@@ -311,15 +303,15 @@ h5:after {
 h6 {
 	font-family: "IBM Plex Sans", Tahoma, Verdana, "Bitstream Vera Sans", sans-serif;
 	font-size: 0.9em;
-	font-weight: normal;
 	text-align: left;
+	font-weight: lighter;
 	line-height: 1.8em;
-	margin: 2em 0 0 0.2em;
-	text-transform: uppercase;
+	margin: 2em 0 0 0;
 	color: #E77817;
+/* 	font-style: italic; */
 }
 
-img { /*I don't think I can touch this because I've used it so much*/
+img { /*I don't think I can touch this because it's used so much*/
 	margin-top: 5px;
 	max-width: 100%;
 /* 
@@ -327,27 +319,20 @@ img { /*I don't think I can touch this because I've used it so much*/
  */
 	text-indent: 2em;
 }
-
-img.n { /* New Image */
-	margin-top: 5px;
-	max-width: 400px;
-	text-indent: 2em;
-	vertical-align: middle; 
-	text-align: center;
-}
 	
 .hidden img {
+	/* margin-top: 5px; */
 	max-width: 100%;
 	margin: 5px 0px 0px 0em;
 	text-indent: 2em;
 }
 	
 img.hidden  {
+	/* margin-top: 5px; */
 	max-width: 100%;
 	margin: 5px 0px 0px 0em;
 	text-indent: 2em;
 }
-
 /* Future image */
 img.f {
 	max-width: 90%;
@@ -367,10 +352,6 @@ ul>ul { /*Select any unordered lists within unordered lists*/
 	margin-bottom: -0.01em;
 }
 
-ul + ol {
-	padding-top: 1em; /*Keep lists from bullets */
-}
-
 /* BULLET POINTS */
 ul {
 	list-style-type: disc;
@@ -383,7 +364,6 @@ p + ul { /*Make bulleted lists fit closer to previous paragraph*/
 
 ul ul {
 	list-style-type: square;
-	margin: 0 0.25em 0em 1em;
 }
 ul ul ul {
 	list-style-type: circle;
@@ -400,8 +380,7 @@ hr {
 	    text-align: center;
 	    border-style: solid;
     margin: 1em 0em 1em 0em;
-    border-bottom: 0.125em solid white; 
-    /*border-bottom: 1px dashed #969594;*/
+    border-bottom: 0.125em solid white;
 }
 
 pre {
@@ -422,6 +401,7 @@ fieldset {
 	padding: 0.5em 1em .5em 1em;
 	margin: 0 0 2.5em 0;
 	border-radius: 4px;
+/* 	color: #969594; */
 }
 fieldset p {
 	margin-bottom: 0;
@@ -429,18 +409,16 @@ fieldset p {
 	font-size: 0.9em;
 }
 legend {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
 	color: white;
 	background-color: inherit;
-	/*font-weight: bold;*/
+	font-weight: bold;
 	font-size: .91em;
-	letter-spacing: .2em;
-    text-transform: uppercase;
+	letter-spacing: .1em;
+/* 	text-transform: uppercase; */
 	margin-left: 1.25em;
 	padding-left: 0.25em;
 }
 
-/* Dictionary */
 dt {
 	font-family: Tahoma, Verdana, "Bitstream Vera Sans", sans-serif;
 	font-size: 1em;
@@ -453,13 +431,13 @@ dt {
 dd {
 	margin: auto auto 2.5em 2em;
 	list-style-type: disc;
-	font-family: ui-serif, Charter, Georgia, serif;
+	font-family: ui-serif, Charter, serif;
 	font-size: 0.9em;
 }
 
 dd p {
 	margin: 0 0 1em 0;
-	font-family: ui-serif, Charter, Georgia, serif;
+	font-family: ui-serif, Charter, serif;
 	font-size: 1em;
 }
 
@@ -481,6 +459,12 @@ em em {
 	font-size: .98em;
 }
 
+/* 
+cite {
+	font-weight: normal;
+	font-style: italic;
+}
+ */
 
 /* CUSTOM STYLES */
 
@@ -506,7 +490,7 @@ a + h2{
 }
 
 .Record {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, sans-serif;
 	font-size: 4em; /*4em redundancy for clueless browsers*/
 	font-size: 6.25vmin; /*This will scale the size based on height or (on 
 					portrait devices) width. This means it should fit on 
@@ -516,11 +500,11 @@ a + h2{
 	font-weight: bold;
 	margin: 0em 0px 0em 0px;
 	color: black;
-	max-width: 1080px !important;
+	max-width: 1025px !important;
 }
 
 .Title {
-	font-family: "IBM Plex Sans", "Proxima Nova", "Avenir Next", Avenir, Geneva, Tahoma, Verdana, sans-serif;
+	font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, sans-serif;
 }
 
 .error{
@@ -535,7 +519,10 @@ a + h2{
 }
 
 aside.err{
-/* Use same as aside */
+/* Same as aside
+    background-color: #001221;
+    box-shadow: 0px 0px 30px 0px #001221;
+ */
 }
 .imgsvg {
 	background-color: #EEEEEE;
@@ -549,30 +536,45 @@ audio {
 	width:  100%;
 }
 
+@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 568px) {
+		audio {
+			height: 150px;
+	}
+}
 
-/* LIGHT MODE... .......................................................................... */
+/* 
+::selection {
+	background-color: #EEEEEE;
+	color: #221F20;
+}
+ */
+
 /* IN LIGHT MODE... */
 @media (prefers-color-scheme: light) {
+	/* 
+::selection {
+		background-color: #005AAB;
+		color: white;
+	}
+ */
+	
 	body {
 		background-color: #EEEEEE;
 		color: #221F20;
 	}
 	
 	aside {
-		background-color: #979FA8;
-    	box-shadow: 0px 0px 30px 0px #979FA8;
-    	color: #001221;
+    		background-color: #DFDDDD;
+    		box-shadow: 0px 0px 30px 0px #DFDDDD;
+    		color: #303235;
 	}
 	
-	blockquote {		
-		border-left: 2px solid #6E2A8E;
-		color: #001924;
-		
-		background: rgb(150,149,148);
-		background: linear-gradient(90deg, rgba(150,149,148,0.5) 0%, rgba(150,149,148,0.3) 100%);
-    	box-shadow: 0px 0px 15px rgba(0, 0, 0, .15);
+	blockquote {
+		border-left: 2px solid #a31984;
+		color: #303235;
 	}
-	blockquote.black {background: #EEEEEE;}
 
 
 	a:link {
@@ -581,7 +583,7 @@ audio {
 		background-color: inherit;
 	}
 	a:visited {
-		color: #552200;
+		color: #0082C9; /*#A21A68;*/
 		border-color: #A21A68;
 		background-color: inherit;
 	}
@@ -597,9 +599,13 @@ audio {
 	}
 
 	table td + td { border-left:1px solid #0082C9; empty-cells: hide;}
-	td {padding: 0.5em;}
 	table th + th { border-left:1px solid #0082C9; }
 	th { border-bottom:1px solid #0082C9; }
+
+
+	h2 {
+		border-color: #F8C300;
+	}
 
 	h5:after {
   	background-color: #EEEEEE;
@@ -607,11 +613,7 @@ audio {
 
 
 	hr {
-	    border-color: white;
-	    border-width: 0;
-	    text-align: center;
-	    border-style: solid;
-    	border-bottom: 1px dashed #969594;
+	    border-bottom: 1px dashed #969594;
 	}
 
 	fieldset {
@@ -620,8 +622,12 @@ audio {
     		color: #303235;
     		border: none;
 	}
-
+	fieldset p::selection {
+/* 		background-color: #026894; */
+		color: #E3E3E3;
+	}
 	legend {
+		font-family: "IBM Plex Sans", "IBM Plex Serif", "Gill Sans MT", "Gill Sans", "Gill Sans Std", Tahoma, Verdana, sans-serif;
 		color: #003768;
 		background-color: transparent;
 		background: rgb(227,227,227);
@@ -641,5 +647,5 @@ audio {
 		text-shadow: 0px 0px 250px #ee3124;
 	}
 }
-
+}
 /* https://stackoverflow.com/questions/14984643/css-pick-a-random-color-from-array */
