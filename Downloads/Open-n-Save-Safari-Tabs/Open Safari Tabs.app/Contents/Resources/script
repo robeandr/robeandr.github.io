@@ -1,0 +1,3 @@
+#!/bin/bash
+
+osascript new_window.scpt `< "$@"`
