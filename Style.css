@@ -22,7 +22,7 @@ body { /*The body provides something for everything to hang off of. A "last-ditc
 	/*-webkit-text-size-adjust: none;*/ /*Disable automatic scaling on iOS devices*/
 	margin-top: 0px;
 	font-family: Geneva, "Segoe UI", Verdana, "Helvetica Neue", "Franklin Gothic Book", "Bitstream Vera Sans", sans-serif;
-	max-width: 800px;
+	max-width: 1024px;
 	background-color: #221F20;
 	color: #EEEEEE;
 	margin-bottom: 40px;

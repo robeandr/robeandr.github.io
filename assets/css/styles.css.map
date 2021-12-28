@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"/* Fix to make images still underlined */\nimg {\n\t\tvertical-align: baseline; \n\t}\n\nb {\n\t\tfont-weight: bold;\n\t}\n\n.current {\n\tfont-weight: bold; \n\tcolor: white;\n}\n\n\n\n.Overlay{\n\t\tposition: relative;\n  \t\tbottom: 12vw; /*Adjust for how far from the bottom of the image the text should be */\n  \t\tleft: -5px; /*For how far from the left edge the text should be */\n    \tmargin: 0 0 -1em 0; /*Spacing from bottom  */\n    \tfont-size: 6vw;\n\t}\n.OverOverlay{\n\t\tposition: relative;\n  \t\tbottom: -2.5em; /*Adjust for how far from the bottom of the image the text should be */\n  \t\tleft: 0px; /*For how far from the left edge the text should be */\n    \tmargin: -4em 0 -1em 0; /*Spacing from bottom  */\n    \tfont-weight: bolder;\n    \t/*max-width: 400px;*/\n    \tcolor: black;\n\t}\n\t\n.leftim {\nposition: absolute;\nwidth: 225px;\npadding-top: -3.2em;\npadding-left: 1em;\n}\n\n.rightim {\npadding-left: 250px;\n}\n.leftim,\n.rightim {\n  /*float: left;*/\n}\n\n.norm {\n\tcolor: inherit;\n\t}"
+	],
+	"names": [],
+	"mappings": "ACAA,yCAAyC;AACzC,AAAA,GAAG,CAAC,EACF,cAAc,EAAE,QAAQ,GACxB;;AAEF,AAAA,CAAC,CAAC,EACA,WAAW,EAAE,IAAI,GACjB;;AAEF,AAAA,QAAQ,CAAC,EACR,WAAW,EAAE,IAAI,EACjB,KAAK,EAAE,KAAK,GACZ;;AAID,AAAA,QAAQ,CAAA,EACN,QAAQ,EAAE,QAAQ,EAChB,MAAM,EAAE,IAAI,EAAE,uEAAuE,CACrF,IAAI,EAAE,IAAI,EAAE,sDAAsD,CACjE,MAAM,EAAE,UAAU,EAAE,yBAAyB,CAC7C,SAAS,EAAE,GAAG,GACjB;;AACF,AAAA,YAAY,CAAA,EACV,QAAQ,EAAE,QAAQ,EAChB,MAAM,EAAE,MAAM,EAAE,uEAAuE,CACvF,IAAI,EAAE,GAAG,EAAE,sDAAsD,CAChE,MAAM,EAAE,aAAa,EAAE,yBAAyB,CAChD,WAAW,EAAE,MAAM,EACnB,qBAAqB,CACrB,KAAK,EAAE,KAAK,GACf;;AAEF,AAAA,OAAO,CAAC,EACR,QAAQ,EAAE,QAAQ,EAClB,KAAK,EAAE,KAAK,EACZ,WAAW,EAAE,MAAM,EACnB,YAAY,EAAE,GAAG,GAChB;;AAED,AAAA,QAAQ,CAAC,EACT,YAAY,EAAE,KAAK,GAClB;;AACD,AAAA,OAAO,EACP,QAAQ,CAAC,EACP,gBAAgB,EACjB;;AAED,AAAA,KAAK,CAAC,EACL,KAAK,EAAE,OAAO,GACb"
+}
