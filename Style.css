@@ -26,6 +26,8 @@ body { /*The body provides something for everything to hang off of. A "last-ditc
 	background-color: #221F20;
 	color: #EEEEEE;
 	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
 /* 	line-height: 1.8em; */
 }
 	
