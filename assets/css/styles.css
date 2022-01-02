@@ -49,4 +49,6 @@ b { font-weight: bold; }
 
 .norm { color: inherit; }
 
+legend { width: inherit; /* Or auto */ padding: 0 0.3em 0 0.5em; /* To give a bit of padding on the left and right */ border-bottom: none; }
+
 /*# sourceMappingURL=styles.css.map */
