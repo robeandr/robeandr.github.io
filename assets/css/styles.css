@@ -41,9 +41,9 @@ b { font-weight: bold; }
 
 .OverOverlay { position: relative; bottom: -2.5em; /*Adjust for how far from the bottom of the image the text should be */ left: 0px; /*For how far from the left edge the text should be */ margin: -4em 0 -1em 0; /*Spacing from bottom  */ font-weight: bolder; /*max-width: 400px;*/ color: black; }
 
-.leftim { position: absolute; width: 225px; padding-top: -3.2em; padding-left: 1em; }
+.leftim { width: 225px; padding-top: -3.2em; padding-left: 1em; }
 
-.rightim { padding-left: 250px; }
+.rightim { margin-left: 1em; padding-top: 0.5em; }
 
 .leftim, .rightim { /*float: left;*/ }
 
